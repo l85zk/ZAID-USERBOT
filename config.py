@@ -9,7 +9,7 @@ if os.path.exists("local.env"):
 API_ID = int(getenv("API_ID", "29439475")) #optional
 API_HASH = getenv("API_HASH", "e07fae9f03f2fb98991389b2c9e2ad30") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6646084739").split()))
 OWNER_ID = int(getenv("6646084739"))
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("6812674130:AAGqzNI5DuPZjD8GxUE-qmM0PTRna-rpXHY", "")
